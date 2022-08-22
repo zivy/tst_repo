@@ -1,0 +1,2 @@
+UniProt Accession Number,Target Name / Protein Biomarker,Antibody Name,Host Organism and Isotype,Clonality,Vendor,Catalog Number,Conjugate,RRID,Application,Method,Tissue Preservation,Tissue,Detergent,Antigen Retrieval Conditions,Dye Inactivation Conditions,Result,Agree,Disagree
+P11836,CD20,"CD20 Monoclonal Antibody (L26), Alexa Fluor 488, eBioscience",Mouse IgG2b,L26,Thermo,53-0202-82,AF488,AB_10734358,IHC-Fr,IBEX2D; IBEX3D,1% PFA Fixed Frozen,Human lymph node,0.3% Triton-X-100,,1 mg/ml LiBH4 15 minutes,Successful,0000-0003-4379-8967; 0000-0003-0315-7727,0000-0003-0315-7727

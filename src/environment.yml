@@ -1,0 +1,11 @@
+name: ibex_knowledge_base
+
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.9.0 
+  - pandas
+  - tabulate
+  - pandoc
+  - bibtexparser

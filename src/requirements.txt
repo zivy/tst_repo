@@ -1,0 +1,8 @@
+#
+# Requirements file for IBEX knowledge-base validation.
+#
+pandas
+tabulate
+bibtexparser
+pandoc
+

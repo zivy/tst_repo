@@ -1,0 +1,83 @@
+{
+    "data_required_column_names": ["UniProt Accession Number",
+                                   "Target Name / Protein Biomarker",
+                                   "Antibody Name",
+                                   "Host Organism and Isotype",
+                                   "Clonality",
+                                   "Vendor",
+                                   "Catalog Number",
+                                   "Conjugate",
+                                   "Application",
+                                   "Method",
+                                   "Tissue Preservation",
+                                   "Tissue",
+                                   "Detergent",
+                                   "Result",
+                                   "Agree"
+                                  ],
+    "data_optional_column_names":["RRID",
+                                  "Antigen Retrieval Conditions",
+                                  "Dye Inactivation Conditions",
+                                  "Disagree"
+                                 ],
+    "Host Organism and Isotype": ["Mouse IgG2a",
+                                  "Mouse IgG2a, Kappa",
+                                  "Mouse IgG2b",
+                                  "Mouse IgG2b, Kappa",
+                                  "Mouse IgG1",
+                                  "Mouse IgG1, Kappa",
+                                  "Mouse IgM",
+                                  "Mouse IgM, Kappa",
+                                  "Mouse BALB/c IgG1",
+                                  "Mouse BALB/c IgG1, Kappa",
+                                  "Armenian Hamster IgG",
+                                  "Rabbit IgG",
+                                  "Rabbit monoclonal",
+                                  "Rat IgG1",
+                                  "Rat IgG2a",
+                                  "Rat IgG2a, Kappa",
+                                  "Rat IgG2b",
+                                  "Rat IgG2b, Kappa",
+                                  "Donkey IgG",
+                                  "Goat IgG",
+                                  "Sheep IgG",
+                                  "Chicken IgY",
+                                  "NA"
+                                 ],
+    "Vendor": ["Abcam",
+               "AAT Bioquest",
+               "BD Biosciences",
+               "BioLegend",
+               "Caprico Biotechnologies",
+               "R&D",
+               "Santa Cruz",
+               "Thermo",
+               "Caprico Biotechnologies",
+               "SouthernBiotech",
+               "Biotium",
+               "Novus",
+               "R&D",
+               "Jackson ImmunoResearch Inc.",
+               "Miltenyi",
+               "LS Bio"
+              ],
+    "Application":["IHC-Fr",
+                   "IHC-P"],
+    "Method":["IBEX2D Manual",
+              "IBEX2D Automated",
+              "Multiplexed imaging"
+             ],
+    "Tissue Preservation":["1% PFA Fixed Frozen",
+                           "FFPE"
+                          ],
+    "Detergent":["0.3% Triton-X-100"
+                ],
+    "Result":["Success",
+              "Failure"]
+}
+
+
+
+
+
+
