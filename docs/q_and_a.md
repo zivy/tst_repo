@@ -1,3 +1,7 @@
+---
+permalink: /questions_and_answers/
+---
+
 # Questions and Answers
 
 Multiplex imaging protocols are complex, they involve a variety of technologies and deal with both physical elements and computational ones. Accurately describing all aspects of a protocol in sufficient detail to consistently obtain high quality results is a work in progress. Detailed descriptions addressing all aspects of a protocol need to span the gamut from physical sample handling to software settings used by the computational components utilized in the work.

@@ -1,3 +1,7 @@
+---
+permalink: /datasets/
+---
+
 # Datasets
 
 Publicly available data listed in reverse chronological order.
