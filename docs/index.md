@@ -1,6 +1,5 @@
 ---
-permalink: /home/
-layout: default
+permalink: /
 ---
 
 ![](ibex_banner.png?raw=true)

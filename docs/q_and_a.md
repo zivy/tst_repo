@@ -1,5 +1,5 @@
 ---
-permalink: /questions_and_answers/
+permalink: /q_and_a/
 ---
 
 # Questions and Answers
