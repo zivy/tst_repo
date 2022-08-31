@@ -1,7 +1,3 @@
----
-permalink: /contributing/
----
-
 # Contributing
 This knowledge-base follows the standard GitHub
 [fork and pull request, triangular workflow](https://guides.github.com/activities/forking/).

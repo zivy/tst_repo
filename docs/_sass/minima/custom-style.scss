@@ -1,0 +1,29 @@
+.banner {
+  position: relative;
+  color: darken($color: $site-title-color, $amount: 10);
+  display: block;
+  margin-top: 0;
+  margin-bottom: 5px;
+  margin-right: auto;
+  margin-left: unquote('max(calc((100% - #{$content-width}) / 2), 10vw)');
+  max-width: 4875px;
+  min-height: 5vh;
+  padding: 1rem 1.25rem;
+  text-decoration: none;
+  width: 100%;
+
+  .img-container {
+    height: 100%;
+    width: auto;
+    float: left;
+
+    @include media-query($on-palm) {
+      visibility: hidden;
+      width: 0px;
+    }
+
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }

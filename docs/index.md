@@ -1,7 +1,3 @@
----
-permalink: /
----
-
 ![](ibex_banner.png?raw=true)
 
 [![Creative Commons License](https://i.creativecommons.org/l/by-nc/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc/4.0/) &nbsp;&nbsp;&nbsp;&nbsp; [![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](code_of_conduct.md)
