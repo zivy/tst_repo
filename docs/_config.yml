@@ -1,4 +1,4 @@
-theme: minima
+remote_theme: jekyll/minima
 
 title: IBEX Micrcoscopy Imaging
 
@@ -11,7 +11,7 @@ header_pages:
   - steering_committee.md
 
 minima:
-  skin: solarized
+  skin: classic
 
 plugins:
   - jekyll-titles-from-headings
