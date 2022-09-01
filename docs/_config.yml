@@ -2,8 +2,6 @@ theme: minima
 
 title: IBEX Micrcoscopy Imaging
 
-banner: ibex_banner.png
-
 header_pages:
   - index.md
   - roadmap.md
