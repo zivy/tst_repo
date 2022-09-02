@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
+      with:
+        fetch-depth: 0
     - name: Set up Python 3.9
       uses: actions/setup-python@v2
       with:
@@ -20,10 +22,12 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         pip install -r src/requirements.txt
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3
     - name: Get all changes from previous commit
       id: changed_files
       run: |
-        modified_files=$(git diff --name-only HEAD^ HEAD)
+        echo "modified_files=$(git diff --name-only HEAD~1 HEAD)" >> $GITHUB_ENV
     - name: Convert bibliography to markdown
       if: contains(steps.changed_files.outputs.modified_files, 'publications.bib')
       run: |
