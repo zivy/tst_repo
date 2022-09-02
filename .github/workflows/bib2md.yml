@@ -1,0 +1,31 @@
+name: Publications bib to Markdown
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - publications.bib
+
+jobs:
+  bib_2_md:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Set up Python 3.9
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r src/requirements.txt
+    - name: Add markdown version of the bib file
+      run: |
+        python src/bib2md.py publications.bib src/ibex.csl docs/publications.md
+        git config --local user.email "$(git log --format='%ae' HEAD^!)"
+        git config --local user.name "$(git log --format='%an' HEAD^!)"
+        git add docs/publications.md
+        git commit -m "Adding markdown version of publications list."
+        git push 
+
+
