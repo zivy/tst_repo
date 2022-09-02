@@ -21,7 +21,12 @@ jobs:
         pip install -r src/requirements.txt
     - name: Install pandoc
       run: |
+        sudo apt-get update
         sudo apt-get install pandoc
+        sudo apt-get install pandoc-citeproc
+        pandoc --version
+    - name: Setup tmate session
+      uses: mxschmitt/action-tmate@v3    
     - name: Add markdown version of the bib file
       run: |
         python src/bib2md.py publications.bib src/ibex.csl docs/publications.md
