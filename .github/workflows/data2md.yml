@@ -20,24 +20,16 @@ jobs:
         python-version: 3.9
     - name: Install dependencies
       run: |
-        python -m pip install --upgrade pip
-        pip install -r src/requirements.txt
-    - name: Setup tmate session
-      uses: mxschmitt/action-tmate@v3
-    - name: Get all changes from previous commit
-      id: changed_files
-      run: |
-        echo "modified_files=$(git diff --name-only HEAD~1 HEAD)" >> $GITHUB_ENV
-    - name: Convert bibliography to markdown
-      if: contains(steps.changed_files.outputs.modified_files, 'publications.bib')
-      run: |
         sudo apt-get update
         sudo apt-get install pandoc
         sudo apt-get install pandoc-citeproc
+        python -m pip install --upgrade pip
+        pip install -r src/requirements.txt
+    - name: Convert bibliography to markdown
+      run: |
         pandoc --version
         python src/bib2md.py publications.bib src/ibex.csl docs/publications.md
     - name: Convert roadmap csv to markdown
-      if: contains(steps.changed_files.outputs.modified_files, 'roadmap.csv')
       run: |
         python src/csv_roadmap_2_md_url.py roadmap.csv docs/supporting_material
     - name: Commit and push
