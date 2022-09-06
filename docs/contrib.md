@@ -1,6 +1,6 @@
 # Contributing
 
-This knowledge-base follows the standard GitHub
+ This knowledge-base follows the standard GitHub
 [fork and pull request, triangular workflow](https://guides.github.com/activities/forking/).
 
 To contribute your knowledge, please follow these steps:

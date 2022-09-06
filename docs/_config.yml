@@ -8,8 +8,8 @@ header_pages:
   - data_and_software.md
   - publications.md
   - q_and_a.md
-  - contributing.md
-
+  - contrib.md
+  - steering_committee.md
 
 minima:
   skin: classic
